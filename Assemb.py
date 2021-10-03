@@ -3,7 +3,7 @@ def assenbly_line_cost(Assemble , Main , Entry , Exit):
     cnt1 = Entry[0] + Assemble[0][1]
     cnt2 = Entry[1] + Assemble[0][1]
 
-    for i in range(len(Assemble[0])):
+    #for i in range(len(Assemble[0])):
 
         Upper = min(cnt1 + Assemble[0][i], cnt2 + Main[1][i] + Assemble[0][i])
         Lower = min(cnt1 + Assemble[1][i], cnt2 + Main[0][i] + Assemble[1][i])
