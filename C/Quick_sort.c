@@ -30,18 +30,18 @@ int partition(int a[],int l,int r)
     return end;
 }
 void quick_sort(int a[],int l,int r)
-{ int pos;
+{ 
+    int pos;
     if(l<r)
     {
         pos=partition(a,l,r);
         quick_sort(a,l,pos-1);
         quick_sort(a,pos+1,r);
     }
-
 }
 void main()
 {
-   int a[20],n,i;
+    int a[20],n,i;
     printf("\nEnter the total number of elements  :  ");
     scanf("%d",&n);
     printf("\nEnter the elements : ");
