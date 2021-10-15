@@ -11,7 +11,6 @@ Example :
 #include<stdio.h>
 #include<stdlib.h>
 #define SWAP(x,y,t) ((t)=(x),(x)=(y),(y)=(t))
-int b[10];
 int partition(int a[],int l,int r)
 {
     int pivot,start,end,temp;
