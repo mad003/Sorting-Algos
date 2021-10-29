@@ -1,11 +1,16 @@
-#   Bubble Sort
-#   Time Complexity: O(n^2)
+# Python program for Bubble Sort
 
-print("Enter array that you want to sort: ")    #Take user input
-l=list(map(int,input().split()))                #save into list
+a = []
+number = int(input("Please Enter the Total Number of Elements : "))
+for i in range(number):
+    value = int(input("Please enter the %d Element of List1 : " %i))
+    a.append(value)
 
-for i in range(len(l)):
-    for j in range(0,len(l)-1-i):
-        if l[j]>l[j+1]:
-            l[j],l[j+1]=l[j+1],l[j]
-print(l)    #print sorted list
+for i in range(number -1):
+    for j in range(number - i - 1):
+        if(a[j] > a[j + 1]):
+             temp = a[j]
+             a[j] = a[j + 1]
+             a[j + 1] = temp
+
+print("The Sorted List in Ascending Order : ", a)
