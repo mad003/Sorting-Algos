@@ -1,4 +1,4 @@
-// Heap Sort Algorith
+// Heap Sort Algorithm
 
 var arr = [5, 2, 4, 6, 1, 3];
 var n = arr.length;
