@@ -2,7 +2,7 @@
 Some basic sorting algos
 
 
-# HacktoberFest 2021
+# HacktoberFest 2023
 This repository consists of mezzo-level projects that undertake a simple task and perform it using small code snippets.
 
 * You can make contibution of good quality code of any language that add value.
